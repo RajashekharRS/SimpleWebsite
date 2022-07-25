@@ -1,0 +1,73 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-image: url(bg-image.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+.nav-bar{
+    background: rgb(63, 163, 174);
+    height: 70px;
+}
+.logo{
+    margin: 10px 50px;
+    height: 40px;
+}
+.menu{
+    float: right;
+    list-style: none;
+    margin: 20px;
+}
+.menu li {
+display: inline-block;
+margin: 10px 5px;
+text-decoration: none;
+}
+.menu li a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+
+}
+.menu li a:hover{
+    background: rgb(0, 0, 0);
+    transition: 1s;
+}
+.welcome{
+    position: relative;
+    text-align: center;
+    font-family: sans-serif;
+    color: #fff;
+    top: 160px;
+}
+.welcome h1{
+    font-size: 40px;
+    margin: 25px;
+}
+.btn{
+    font-size: 22px;
+    letter-spacing: 2px;
+    margin: 5px;
+    padding: 7px;
+    border: 1px solid #fff;
+    text-decoration: none;
+}
+.btn1 {
+    background: #fff;
+    color: black;
+}
+.btn2{
+    background: #fff;
+    color: black;
+}
+.btn:hover{
+    background: rgb(236, 5, 5);
+    color: white;
+    transition:1s;
+    border-radius: 25px;
+}
